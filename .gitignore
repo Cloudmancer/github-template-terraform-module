@@ -1,0 +1,15 @@
+# Exclude specific terraform files and variables
+**/.terraform.lock.hcl
+**/.terraform/*
+**/terraform.tfstate
+**/terraform.tfstate.backup
+**/*.tfvars
+
+# Exclude notes and tool directories/files
+**/.notes/*
+**/vscode/*
+**/.todo
+**/.DS_Store/*
+
+# Crash log files
+crash.log
